@@ -14,9 +14,12 @@
 - ユーザー名（ニックネーム）
 - ユーザーID
 - プロフィール情報：誕生月日、星座、血液型、性格、将来の夢、すきなもの、きらいなもの、最近の悩み、自己紹介文
+- プロフィール画像（ユーザーが写真ライブラリから選択した画像）
 - 日記の題名および本文
 - 他ユーザーへのフォロー、ブロック情報
 - 他ユーザーの日記に貼ったシール（リアクション）情報
+
+ユーザーがプロフィール画像を設定する場合のみ、本サービスは端末の写真ライブラリへのアクセス許可を求めます。許可しない場合でも本サービスの基本機能は利用できます。
 
 ### 2. 端末から自動取得する情報
 
@@ -65,7 +68,7 @@
 
 | 外部サービス | 用途 | 提供者 |
 |---|---|---|
-| Google Firebase（Cloud Firestore / Cloud Storage） | ユーザー情報・日記・シール等のクラウド保存 | Google LLC（[プライバシーポリシー](https://policies.google.com/privacy)） |
+| Google Firebase（Cloud Firestore / Cloud Storage） | ユーザー情報・日記・シール・プロフィール画像等のクラウド保存 | Google LLC（[プライバシーポリシー](https://policies.google.com/privacy)） |
 | RevenueCat | アプリ内課金のレシート検証および購入権限管理 | RevenueCat, Inc.（[プライバシーポリシー](https://www.revenuecat.com/privacy/)） |
 | Apple App Store | アプリ内課金の決済処理 | Apple Inc.（[プライバシーポリシー](https://www.apple.com/legal/privacy/)） |
 
